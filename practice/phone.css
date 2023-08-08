@@ -1,0 +1,146 @@
+
+.navbar{
+    width: 282vw;
+    flex-direction: column;
+    height: 103px;
+}
+.navbar::before{
+    height: 215px;
+}
+.outer{
+    margin: 19px;
+    margin-top: 34px;
+}
+.essential i {
+    margin: 2px 62px;
+    font-size: 37px;
+}
+section{
+    flex-direction: column;
+    width: 282vw;
+    height: 145vh;
+    margin-top: 108px;
+}
+section::before{
+    height: 219vh;
+}
+.container::before{
+    height: 332vh;
+    top: -45px;
+}
+.welcome{
+    width: 263vw;
+    margin-top: 13em;
+    margin-left: 0em;
+    height: 70vh;
+}
+.imgbar{
+    margin-left: -44em;
+}
+.imgs{
+  width: 170px;
+}
+.lownav{
+    width: 282vw;
+    height: 78px;
+    background: transparent;
+}
+.list{
+    justify-content: center;
+}
+.lownav .list li{
+    padding: 14px 59px;
+    font-size: 31px;
+}
+.width:hover .course {
+    display: flex;
+    z-index: 1;
+    opacity: 1;
+    height: 392px;
+    width: 97vw;
+}
+.logcontainer{
+    width: 646px;
+    height: 649px;
+    top: 207vw;
+    left: 44%;
+}
+.login input{
+    font-size: 35px;
+    height: 10vh;
+    width: 152vw;
+    outline: 0;
+}
+.log{
+    width: 125px;
+    border-radius: 20px;
+    cursor: pointer;
+    height: 10vh;
+    font-size: 20px;
+}
+.ope:active .logcontainer{
+    display: flex;
+}
+.container{
+    width: 274vw;
+}
+.fir{
+    display: none;
+}
+.click1{
+    background: transparent;
+    outline: 0;
+    border: 0;
+    font-size: 25px;
+    color: blue;
+}
+.click1 :active .fir{
+    display: block;
+}
+.layout{
+    flex-direction: column;
+}
+.pricing{
+    height: 126vh;
+    width: 287vw;
+    border-radius: 0px;
+}
+.pr{
+    width: 283vw;
+}
+.one ul li{
+    font-size: 10px;
+}
+.one{
+    height: 114vh;
+    width: 46vw;
+    margin: 0px 5px;
+}
+
+footer{
+    margin-top: 1vh;
+    width: 265vw;
+}
+/* utility classe */
+.pf{
+    font-size: 39px;
+}
+.se{
+    font-size: 24px;
+    line-height: 50px;
+}
+.he{
+ font-size: 55px;
+}
+.bf{
+    font-size:24px ;
+}
+.for{
+    font-size: 66px;
+}
+.side{
+    font-size: 32px;
+}
+.foo{
+    padding: 9px 10px;
+}
